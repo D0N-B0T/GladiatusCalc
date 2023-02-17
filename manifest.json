@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Gladiatus Calculadora",
+    "version": "1.0",
+    "description": "Know if you can win a battle in Gladiatus",
+    "content_scripts": [
+      {
+        "matches": [
+          "https://*.gladiatus.gameforge.com/*"
+        ],
+        "js": [
+          "app.js"
+        ]
+      }
+
+    ]
+  }
+  
